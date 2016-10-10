@@ -1,0 +1,70 @@
+# Classes:
+#     Integer
+#     Float
+#     Complex
+#     String
+#     List
+#     Bool
+#     Set
+#     Dicionário
+#     Tupla
+#     Módulo
+
+# Índices de variáveis
+#     .conjugate() - retorna o conjugado
+#     .is_integer() - retorna True ou False
+#     .hex() - converte um número para a base hexadecimal
+#     .append(x) - adiciona o vetor x ao final de uma lista e ele se torna o último elemento dessa lista
+#     .pop() - retorna o último número e o deleta do vetor
+#     .extend(x) - adiciona o vetor x ao final de uma lista
+#     .insert(x,y) = adiciona o elemento y na posição x e empurra os elementos restantes
+#     .sort() - ordena os elementos da lista
+#     .index(x) - encontra o índice do elemento 2
+#     .count(x) - conta quantas vezes o elemento x aparece no vetor ou string
+#     .reverse() - inverte os elementos do vetor
+#     .replace(x,y) - (s) Troca o caractere x pelo caractere y
+#     .find(x) - (s) Retorna o índice da primeira ocorrência do conjunto de caracteres x
+#     .isdigit() - (s) Retorna True caso a string seja conversível em inteiro
+#     .isupper() - (s) Retorna True caso todos os caracteres da string estejam em maiúsculos
+#     .union(lista) - (S) Retorna a união do conjunto com a lista l
+#     .intersection(l) - (S) Retorna a interseção do conjunto com a lista l
+#     .split() - (s) Separa as palavras de um texto e retorna uma lista com essas palavras
+#     .punctuation - (s) Retorna os caracteres de pontuação presentes na string
+#     .join(lista) - (s) Retorna uma string com os elementos da lista separados pela string join
+#     .update(?) - (d) Atualiza um dicionário colocando a definição ?
+#     .items() - (d) Mostra as definições presentes no dicionário
+#     .endwith(s) - (s) Retorna True se termina com a string s
+#     .startwith(s) - (s) Retorna True se inicia com a string s
+#     .remove(x) - (lis) Remove a lista x da lista lis
+
+# Funções
+#     len(x) - retorna o tamanho do vetor x
+#     print(x) - printa o vetor x
+#     int(x) - (s)(f) Converte caracteres númericos em números
+#     str(x) - (i) Converte integers ou floats em caracteres
+#     set(x) - Retorna um conjunto com os elementos da lista x
+#         Quando aplicado em uma string, retorna os caracteres da string como elementos do set
+#     list(x) - Retorna uma lista com os elementos do set x
+
+# Outros
+    # x[i] - retorna o i-ésimo elemento do vetor x
+    # s1 + s2 - Concatena as strings s1 e s2
+    # \n - Dentro de uma string, quebra a linha
+    # == - Operador de igualdade
+    # != - Operador de desigualdade
+    # and - Operador 'e'
+    # in - Operador 'pertence a'
+    # or - Operador 'ou'
+
+
+# Dúvidas:
+#     x = 0xFFF
+
+# Códigos interessantes
+
+#     for punct in ['.','?','!']:
+#         texto = texto.replace(punct, '*****')
+#     texto
+
+#   string5 = 'uma string'
+#   string5 += ' outro texto'
